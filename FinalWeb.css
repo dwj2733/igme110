@@ -52,7 +52,7 @@ nav{
 a{
     flex-direction: column;
     color: #ffef00;
-    font-family: "Blender Pro";
+    font-family: 'Exo 2', sans-serif;
     color: #55cced;
     font-size: 20px;
 }
