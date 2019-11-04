@@ -1,4 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/335787aa6f57d71cabe8eb5dc89c6d6b?family=Blender+Pro);
+@font-face {
+    font-family: "Blender Pro";
+    src: url(//db.onlinewebfonts.com/c/335787aa6f57d71cabe8eb5dc89c6d6b?family=Blender+Pro);
+    }
 
 *{
     box-sizing: border-box;
