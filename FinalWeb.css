@@ -57,29 +57,11 @@ a{
     font-size: 20px;
 }
 
-nav{
-    border-bottom: 4px solid #55cced;
-}
-
-h2{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
-    letter-spacing: 0ch;
-}
-
 .pagelink{
     padding: 10px;
     border-bottom: 1.5px solid #55cced;
     text-decoration: none;
     color: #ffef00;
-}
-
-.sourcelink{
-    padding: 10px;
-    border-bottom: 2px solid #55cced;
-    border-top: 2px solid #55cced;
-    color: #ffef00;
-    text-decoration: none;
 }
 
 .content{
@@ -97,6 +79,52 @@ h2{
     padding-top: 0px;
 }
 
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    letter-spacing: 0ch;
+}
+
+h3{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imgright{
+    padding: 20px;
+    padding-right: 0px;
+    clear: right;
+    float: left;   
+    display: block;
+    max-width: 30%;
+    height: auto; 
+}
+
+.imgleft{
+    padding: 20px;
+    padding-left: 0px;
+    clear: left;
+    float: left;
+    display: block;
+    max-width: 30%;
+    height: auto;
+}
+
+.sourcelink{
+    padding: 10px;
+    border-bottom: 2px solid #55cced;
+    border-top: 2px solid #55cced;
+    color: #ffef00;
+    text-decoration: none;
+}
+
 footer{
     padding: 0px;
     grid-area: 4/2/5/4;
@@ -108,4 +136,5 @@ footer{
     border-left: 4px solid #55cced;
     padding: 40px;
 }
+
 
