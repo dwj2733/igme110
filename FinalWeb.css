@@ -58,7 +58,7 @@ a{
 }
 
 nav{
-    border-bottom: 2px solid #55cced;
+    border-bottom: 4px solid #55cced;
 }
 
 h2{
@@ -69,10 +69,17 @@ h2{
 
 .pagelink{
     padding: 10px;
-    border-top: 1px solid #55cced;
-    border-bottom: 1px solid #55cced;
+    border-bottom: 1.5px solid #55cced;
     text-decoration: none;
     color: #ffef00;
+}
+
+.sourcelink{
+    padding: 10px;
+    border-bottom: 2px solid #55cced;
+    border-top: 2px solid #55cced;
+    color: #ffef00;
+    text-decoration: none;
 }
 
 .content{
